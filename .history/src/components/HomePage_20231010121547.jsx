@@ -5,15 +5,15 @@ import styled from 'styled-components';
 
 const HomePage = () => {
   return (
-    <Container>
+    <div>
       <IMAGE>
-        <img src={homePageImage} alt='Home Page' />
+        <img src={homePageImage} alt='Home Page' style={{ }} />
       </IMAGE>
 
       {/*add the logo*/}
-      <LOGO>
-        <img src={logo} alt="logo design" />
-      </LOGO>
+      <div>
+        <img src={logo} alt="logo design" style={{}}/>
+      </div>
 
       {/*Add the header*/}
       <div>
@@ -31,23 +31,16 @@ const HomePage = () => {
       <div>
         <h1>Cakes Crafted with Love</h1>      
       </div>
-    </Container>
+    </div>
   );
 };
 
 export default HomePage;
 
-const Container = styled.div`
 
-`
 
-const IMAGE = styled.div `
- width: '1518px'; 
- height:'760px';
+const IMAGE = styled.img `
+ width: '1518px', 
+ height:'740px'
 
 ` 
-
-const LOGO = styled.div `
-  margin-right:1200px;
-  margin-bottom:800px;
-`

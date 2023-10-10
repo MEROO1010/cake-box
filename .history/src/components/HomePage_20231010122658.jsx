@@ -47,7 +47,7 @@ const IMAGE = styled.div `
 
 ` 
 
-const LOGO = styled.div `
+const LOGO = styled.img `
   margin-right:1200px;
   margin-bottom:800px;
 `

@@ -48,6 +48,7 @@ const IMAGE = styled.div `
 ` 
 
 const LOGO = styled.div `
-  margin-right:1200px;
-  margin-bottom:800px;
+ top: 40px;
+ padding:40px;
+
 `

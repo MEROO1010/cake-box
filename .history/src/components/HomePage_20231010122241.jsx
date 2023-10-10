@@ -7,13 +7,13 @@ const HomePage = () => {
   return (
     <Container>
       <IMAGE>
-        <img src={homePageImage} alt='Home Page' />
+        <img src={homePageImage} alt='Home Page' style={{ }} />
       </IMAGE>
 
       {/*add the logo*/}
-      <LOGO>
-        <img src={logo} alt="logo design" />
-      </LOGO>
+      <div>
+        <img src={logo} alt="logo design" style={{}}/>
+      </div>
 
       {/*Add the header*/}
       <div>
@@ -46,8 +46,3 @@ const IMAGE = styled.div `
  height:'760px';
 
 ` 
-
-const LOGO = styled.div `
-  margin-right:1200px;
-  margin-bottom:800px;
-`
