@@ -42,13 +42,18 @@ const Container = styled.div`
 `
 
 const IMAGE = styled.div `
-   background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100%;
-  margin-right:100px;
-  position: static;
-   
+   max-width: 100%;
+   object-fit: contain;
+   margin-right: 90px;
+   background-position: cover;
+
+   max-width:100%;
+ width: 100%;
+ height: 100%;
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ 
   
   
 ` 

@@ -45,7 +45,8 @@ const IMAGE = styled.div `
    background-size: cover;
   background-position: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  max-height:100%;
   margin-right:100px;
   position: static;
    

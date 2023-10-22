@@ -42,15 +42,14 @@ const Container = styled.div`
 `
 
 const IMAGE = styled.div `
-   background-size: cover;
+ background-size: cover;
   background-position: center;
+  max-width: 100%;
   width: 100%;
-  height: 100%;
-  margin-right:100px;
-  position: static;
-   
-  
-  
+  height: 100vh;
+  margin-right:40px ;
+  margin-bottom:10px;
+  position:absolute;
 ` 
 
 const LOGO = styled.div `
