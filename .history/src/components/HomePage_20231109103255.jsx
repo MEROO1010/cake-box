@@ -43,11 +43,6 @@ const HomePage = () => {
         <h1>Cakes Crafted with Love</h1>      
       </div>
       </MainTitle>
-
-      {/*Add the Button*/}
-      <ExploreNow>
-        <button>Explore Now</button>
-      </ExploreNow>
     </Container>
   );
 };
@@ -58,19 +53,19 @@ const Container = styled.div`
 `
 
 const IMAGE = styled.div`
- max-width:100%;
- width: 100%;
- height: 100%;
- background-size: cover;
- background-position: center;
- background-repeat: no-repeat;
- background-color:#FEF794;
+ position: relative;
+  top: 0px;
+  right: 60px;
+  width: 1440px;
+  height: 820px;
+  object-fit:cover;
+  padding-left:60px;
 ` 
 
 const LOGO = styled.div `
    position: absolute;
   top: 16px;
-  right: 860px;
+  right: 924px;
   padding-left:40px;
   width: 1015px;
   height: 519px;
@@ -122,22 +117,3 @@ position: absolute;
   text-shadow: 9px 4px 4px rgba(0, 0, 0, 0.25);
 
 `
-
-const ExploreNow = styled.div`
-  button{
-    position: absolute;
-    margin:500px 620px ;
-    top:40px;
-    right:10px;
-    color:black;
-    width:340px;
-    height:60px;
-    border-radius:40px;
-    background-color:#FEF794;
-    border:none;
-    font-size:24px;
-    font-weight:bold;
-    color:white;
-    cursor: pointer;
-  }
-`;

@@ -64,13 +64,13 @@ const IMAGE = styled.div`
  background-size: cover;
  background-position: center;
  background-repeat: no-repeat;
- background-color:#FEF794;
+ background-color:#000;
 ` 
 
 const LOGO = styled.div `
    position: absolute;
   top: 16px;
-  right: 860px;
+  right: 924px;
   padding-left:40px;
   width: 1015px;
   height: 519px;
@@ -124,20 +124,13 @@ position: absolute;
 `
 
 const ExploreNow = styled.div`
-  button{
-    position: absolute;
-    margin:500px 620px ;
-    top:40px;
-    right:10px;
-    color:black;
-    width:340px;
-    height:60px;
-    border-radius:40px;
-    background-color:#FEF794;
-    border:none;
-    font-size:24px;
-    font-weight:bold;
-    color:white;
-    cursor: pointer;
-  }
+  position: absolute;
+  color:#FEF794;
+  top: 490px;
+  left: 662px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+  font-size:40px;
+  border-radius: 50%;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 `;

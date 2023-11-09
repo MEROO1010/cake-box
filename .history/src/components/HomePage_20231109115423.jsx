@@ -125,15 +125,14 @@ position: absolute;
 
 const ExploreNow = styled.div`
   button{
-    position: absolute;
-    margin:500px 620px ;
-    top:40px;
-    right:10px;
+    position: relative;
+    margin:0px 280px ;
+    top:100px;
     color:black;
     width:340px;
     height:60px;
     border-radius:40px;
-    background-color:#FEF794;
+    background-color:#FFE280;
     border:none;
     font-size:24px;
     font-weight:bold;

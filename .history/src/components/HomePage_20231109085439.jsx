@@ -1,0 +1,26 @@
+import { useCallback } from "react";
+import styled from "styled-components";
+
+const HomePage = () => {
+  const onProductsTextClick = useCallback(() => {
+    // Please sync "products" to the project
+  }, []);
+
+  return (
+ <HomePageRoot>
+    <HomePageMain>
+       <img src="../images/HomePage.png" alt=""/>
+    </HomePageMain>
+ </HomePageRoot>
+  );
+};
+
+const HomePageRoot = styled.div `
+
+`
+
+const HomePageMain = styled.img`
+width:200px;
+`
+
+export default HomePage;

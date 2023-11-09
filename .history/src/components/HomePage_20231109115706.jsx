@@ -133,7 +133,7 @@ const ExploreNow = styled.div`
     width:340px;
     height:60px;
     border-radius:40px;
-    background-color:#FEF794;
+    background-color:#FFE280;
     border:none;
     font-size:24px;
     font-weight:bold;
