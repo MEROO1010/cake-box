@@ -4,7 +4,8 @@ import CAKEVECTOR from '../images/cake_vector.png'
 import CROISSANT from '../images/croissant.png'
 import CAR from '../images/car.png'
 import GLAVES from '../images/glaves.png'
-import data from '../images/data.json';
+import data from './images/data.json';
+
 
 
 
