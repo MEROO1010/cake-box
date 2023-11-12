@@ -3,7 +3,7 @@
     "id": 1,
     "title": "Item 1",
     "description": "Description for Item 1",
-    "imagePath": "../images/Cake.png"
+    "imagePath": "/images/Cake.png"
   },
   {
     "id": 2,
