@@ -5,7 +5,6 @@ import AboutUs from './components/AboutUs';
 import Feedback from './components/Feedback';
 import InstagramSection from './components/InstagramSection';
 
-
 function App() {
   return (
     <div className="App">

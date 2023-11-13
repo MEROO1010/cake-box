@@ -56,7 +56,7 @@ const ParagraphContainer = styled.div `
 p{
     font-size : 28px;
     font-weight:600;
-    margin-left:880px;
+    margin-left:720px;
     bottom:400px;
     text-align:left;
     position:relative;
