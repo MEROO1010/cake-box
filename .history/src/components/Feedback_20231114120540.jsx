@@ -2,11 +2,6 @@ import React from 'react'
 import styled from 'styled-components';
 import QUOTES from '../images/quotes.png'
 import data from '../images/feedback.json';
-import IMAGE1 from '../images/Image-1.png';
-import IMAGE2 from '../images/Image-2.png';
-import IMAGE3 from '../images/Image-3.png';
-import IMAGE4 from '../images/Image-4.png';
-import logo from '../images/cake box.png'
 
 
 const Feedback = () => {
@@ -31,29 +26,15 @@ const Feedback = () => {
        <h1>Our Instagram - let's be friends!</h1>
 
        <ImageMedia>
-      
-        <img src={IMAGE4} alt="" />
-        <img src={IMAGE3} alt="" />
-        <img src={IMAGE2} alt="" />
-        <img src={IMAGE1} alt="" />
-      
+       <Row>
+        <img src="../images/image-1.png" alt="Image 1" />
+        <img src="../images/image-2.png" alt="Image 2" />
+        <img src="../images/image-3.png" alt="Image 3" />
+        <img src="../images/image-4.png" alt="Image 4" />
+      </Row>
      
        </ImageMedia>
     </SocailMedia>
-
-    <Footer>
-    <LOGO>
-        <img src={logo} alt="logo design" />
-      </LOGO>
-
-      <Columns>
-         <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
-         </ul>
-      </Columns>
-    </Footer>
     </Container>
   )
 }
@@ -105,43 +86,18 @@ const SocailMedia = styled.div`
 `
 
 const ImageMedia = styled.div`
-display: flex;
+
+` 
+
+const Row = styled.div`
+  display: flex;
   justify-content: center;
 
   img{
-    margin: 40px;
-  width: 300px;
-  height: 300px;
+    margin: 5px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   }
-` 
+`;
 
-
-const Footer = styled.div `
- background-color:#FFEDDB;
- padding-bottom:2px;
- margin-top:140px;
-`
-
-const LOGO = styled.div `
-padding-bottom:400px;
-bottom:200px;
-   img{
-    position: relative;
-  bottom: 116px;
-  right: 860px;
-  padding-left:40px;
-  width: 100px;
-  height: 80px;
-  
-   }
-`
-
-
-
-  const Columns = styled.a `
-  li{
-    list-style-type: none;
-    color: #fff;
-  padding: 5px 10px;
-  }`

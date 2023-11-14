@@ -137,11 +137,9 @@ bottom:200px;
    }
 `
 
-
-
-  const Columns = styled.a `
+const Columns = styled.div `
   li{
     list-style-type: none;
-    color: #fff;
-  padding: 5px 10px;
-  }`
+  }
+
+  `

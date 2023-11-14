@@ -4,7 +4,7 @@ import styled from 'styled-components';
 const InstagramSection = () => {
   return (
     <Container>
-        
+        <h1>Section</h1>
     </Container>
   )
 }

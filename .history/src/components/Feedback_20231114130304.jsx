@@ -45,14 +45,6 @@ const Feedback = () => {
     <LOGO>
         <img src={logo} alt="logo design" />
       </LOGO>
-
-      <Columns>
-         <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
-         </ul>
-      </Columns>
     </Footer>
     </Container>
   )
@@ -119,29 +111,16 @@ display: flex;
 
 const Footer = styled.div `
  background-color:#FFEDDB;
- padding-bottom:2px;
- margin-top:140px;
 `
 
 const LOGO = styled.div `
-padding-bottom:400px;
-bottom:200px;
    img{
-    position: relative;
-  bottom: 116px;
+    position: absolute;
+  bottom: 16px;
   right: 860px;
   padding-left:40px;
-  width: 100px;
-  height: 80px;
-  
+  width: 115px;
+  height: 519px;
+  object-fit: cover;
    }
 `
-
-
-
-  const Columns = styled.a `
-  li{
-    list-style-type: none;
-    color: #fff;
-  padding: 5px 10px;
-  }`

@@ -45,14 +45,6 @@ const Feedback = () => {
     <LOGO>
         <img src={logo} alt="logo design" />
       </LOGO>
-
-      <Columns>
-         <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
-         </ul>
-      </Columns>
     </Footer>
     </Container>
   )
@@ -136,12 +128,3 @@ bottom:200px;
   
    }
 `
-
-
-
-  const Columns = styled.a `
-  li{
-    list-style-type: none;
-    color: #fff;
-  padding: 5px 10px;
-  }`

@@ -3,7 +3,7 @@ import HomePage from './components/HomePage';
 import Products from './components/Products';
 import AboutUs from './components/AboutUs';
 import Feedback from './components/Feedback';
-
+import Footer from './components/Footer';
 
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
       <Products/>
       <AboutUs/>
       <Feedback/>
-      
+      <Footer/>
       
     </div>
   );

@@ -48,9 +48,9 @@ const Feedback = () => {
 
       <Columns>
          <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
+          <li>News</li>
+          <li>About Us</li>
+          <li>Blog</li>
          </ul>
       </Columns>
     </Footer>
@@ -137,11 +137,7 @@ bottom:200px;
    }
 `
 
+const Columns = styled.div `
 
 
-  const Columns = styled.a `
-  li{
-    list-style-type: none;
-    color: #fff;
-  padding: 5px 10px;
-  }`
+  `
