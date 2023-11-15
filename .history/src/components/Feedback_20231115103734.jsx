@@ -6,7 +6,7 @@ import IMAGE1 from '../images/Image-1.png';
 import IMAGE2 from '../images/Image-2.png';
 import IMAGE3 from '../images/Image-3.png';
 import IMAGE4 from '../images/Image-4.png';
-
+import logo from '../images/cake box.png'
 
 
 const Feedback = () => {
@@ -41,7 +41,19 @@ const Feedback = () => {
        </ImageMedia>
     </SocailMedia>
 
-    
+    <Footer>
+    <LOGO>
+        <img src={logo} alt="logo design" />
+      </LOGO>
+
+      <Columns>
+         <ul>
+          <li><button>News</button></li>
+          <li><button>About Us</button></li>
+          <li><button>Blog</button></li>
+         </ul>
+      </Columns>
+    </Footer>
     </Container>
   )
 }
@@ -105,3 +117,33 @@ display: flex;
 ` 
 
 
+const Footer = styled.div `
+ background-color:#FFEDDB;
+ padding-bottom:2px;
+ margin-top:100px;
+`
+
+const LOGO = styled.div `
+padding-bottom:400px;
+bottom:200px;
+   img{
+    position: relative;
+  bottom: 116px;
+  right: 860px;
+  padding-left:40px;
+  width: 100px;
+  height: 80px;
+  
+   }
+`
+
+
+
+  const Columns = styled.a `
+  li{
+    list-style-type: none;
+    color: #fff;
+  padding: 5px 20px;
+  margin-top:60px;
+  margin-right:800px;
+  }`
