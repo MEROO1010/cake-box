@@ -80,7 +80,7 @@ bottom:200px;
    h4{
      position: absolute;
      left:60px;
-     top:280px;
+     top:200px;
      font-size:20px;
    }
   `

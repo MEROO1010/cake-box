@@ -17,10 +17,6 @@ const Footer = () => {
           <li><button>Blog</button></li>
          </ul>
       </Columns>
-
-      <Footertext>
-        <h4>© 2023Cake Box</h4>
-      </Footertext> 
     </FooterSection>
     </Container>
   )
@@ -47,11 +43,11 @@ padding-bottom:400px;
 bottom:200px;
    img{
     position: relative;
-  top: 120px;
-  right: 640px;
+  top: 16px;
+  right: 80px;
   padding-left:40px;
-  width: 160px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
   
    }
 `
@@ -72,15 +68,9 @@ bottom:200px;
       cursor: pointer;
     }
    
+  border: none;
+  /* Set the desired color for the text */
+ 
   
    
   `;
-
-  const Footertext = styled.div`
-   h4{
-     position: absolute;
-     left:60px;
-     top:280px;
-     font-size:20px;
-   }
-  `

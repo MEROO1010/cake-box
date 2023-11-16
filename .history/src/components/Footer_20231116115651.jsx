@@ -17,10 +17,6 @@ const Footer = () => {
           <li><button>Blog</button></li>
          </ul>
       </Columns>
-
-      <Footertext>
-        <h4>© 2023Cake Box</h4>
-      </Footertext> 
     </FooterSection>
     </Container>
   )
@@ -29,12 +25,14 @@ const Footer = () => {
 export default Footer
 
 const Container = styled.div`
-  background-color: #FFEDDB;
-  margin-top: 180px;
-  height: 100%; /* Reduce the height value */
-  position: relative;
-  top: 20px;
+ background-color:#FFEDDB;
+ margin-top:100px;
+ padding-bottom:400px;
+bottom:10px;
+ height:400px;
+ position:relative;
 `
+
 
 const FooterSection = styled.div `
  
@@ -47,40 +45,23 @@ padding-bottom:400px;
 bottom:200px;
    img{
     position: relative;
-  top: 120px;
-  right: 640px;
+  bottom: 116px;
+  right: 860px;
   padding-left:40px;
-  width: 160px;
-  height: 100px;
+  width: 100px;
+  height: 80px;
   
    }
 `
 
 
 
-  const Columns = styled.div`
-    li {
-      list-style-type: none;
-      bottom: 400px;
-      position: relative;
-      margin-bottom: 20px;
-      margin-right: 800px;
-      border:none;
-      background-color: transparent;
-      color: blue;
-      text-decoration: none;
-      cursor: pointer;
-    }
-   
-  
-   
-  `;
-
-  const Footertext = styled.div`
-   h4{
-     position: absolute;
-     left:60px;
-     top:280px;
-     font-size:20px;
-   }
-  `
+  const Columns = styled.a `
+  li{
+    list-style-type: none;
+    color: #fff;
+  bottom:400px;
+  position:relative;
+  margin-bottom:20px;
+  margin-right:800px;
+  }`

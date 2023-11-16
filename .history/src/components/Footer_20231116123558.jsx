@@ -12,9 +12,9 @@ const Footer = () => {
 
       <Columns>
          <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
+          <ListLink><button>News</button></ListLink>
+          <ListLink><button>About Us</button></ListLink>
+          <ListLink><button>Blog</button></ListLink>
          </ul>
       </Columns>
 
@@ -71,10 +71,16 @@ bottom:200px;
       text-decoration: none;
       cursor: pointer;
     }
+
    
   
    
   `;
+
+  const ListLink = styled.a`
+    
+  `
+
 
   const Footertext = styled.div`
    h4{

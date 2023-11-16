@@ -79,8 +79,7 @@ bottom:200px;
   const Footertext = styled.div`
    h4{
      position: absolute;
-     left:60px;
-     top:280px;
-     font-size:20px;
+     left:10px;
+     top:300px;
    }
   `

@@ -19,7 +19,7 @@ const Footer = () => {
       </Columns>
 
       <Footertext>
-        <h4>© 2023Cake Box</h4>
+        <h1>© 2023Cake Box</h1>
       </Footertext> 
     </FooterSection>
     </Container>
@@ -76,11 +76,8 @@ bottom:200px;
    
   `;
 
-  const Footertext = styled.div`
-   h4{
-     position: absolute;
-     left:60px;
-     top:280px;
-     font-size:20px;
+  const FooterText = styled.div`
+   h1{
+    
    }
   `

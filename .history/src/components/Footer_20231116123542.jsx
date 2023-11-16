@@ -12,9 +12,9 @@ const Footer = () => {
 
       <Columns>
          <ul>
-          <li><button>News</button></li>
-          <li><button>About Us</button></li>
-          <li><button>Blog</button></li>
+          <ListLink><button>News</button></ListLink>
+          <ListLink><button>About Us</button></ListLink>
+          <ListLink><button>Blog</button></ListLink>
          </ul>
       </Columns>
 
@@ -60,21 +60,31 @@ bottom:200px;
 
   const Columns = styled.div`
     li {
-      list-style-type: none;
-      bottom: 400px;
-      position: relative;
-      margin-bottom: 20px;
-      margin-right: 800px;
-      border:none;
-      background-color: transparent;
-      color: blue;
-      text-decoration: none;
-      cursor: pointer;
+      list-style: none;
+  display: inline-block;
+  margin-right: 80px;
+  padding-left:6px;
+  top:14px;
+  left:100px;
+  position: relative;
     }
+
    
   
    
   `;
+
+  const ListLink = styled.a`
+     text-decoration: none;
+  color: #fff;
+  padding: 5px 10px;
+  
+
+  &:hover {
+    color: #FEF794;
+  }
+  `
+
 
   const Footertext = styled.div`
    h4{
