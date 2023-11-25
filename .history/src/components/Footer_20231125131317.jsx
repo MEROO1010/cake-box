@@ -90,23 +90,17 @@ bottom:200px;
   `
 
   const WriteButton = styled.div `
-   
-    button{
-    position: absolute;
-    margin:500px 620px ;
-    bottom:2px;
-    left:400px;
-    color:black;
-    width:340px;
-    height:60px;
-    border-radius:40px;
-    background-color:#FEF794;
-    border:none;
-    font-size:24px;
-    font-weight:bold;
-    color:white;
-    cursor: pointer;
- 
+   button{
+    background-color: #FFEDDB;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   }
   
   `

@@ -90,12 +90,12 @@ bottom:200px;
   `
 
   const WriteButton = styled.div `
-   
+   button{
     button{
     position: absolute;
     margin:500px 620px ;
-    bottom:2px;
-    left:400px;
+    top:40px;
+    right:10px;
     color:black;
     width:340px;
     height:60px;
@@ -106,7 +106,7 @@ bottom:200px;
     font-weight:bold;
     color:white;
     cursor: pointer;
- 
+  }
   }
   
   `

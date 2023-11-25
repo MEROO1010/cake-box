@@ -94,7 +94,7 @@ bottom:200px;
     button{
     position: absolute;
     margin:500px 620px ;
-    bottom:2px;
+    bottom:10px;
     left:400px;
     color:black;
     width:340px;

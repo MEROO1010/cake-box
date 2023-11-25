@@ -89,24 +89,4 @@ bottom:200px;
    }
   `
 
-  const WriteButton = styled.div `
-   
-    button{
-    position: absolute;
-    margin:500px 620px ;
-    bottom:2px;
-    left:400px;
-    color:black;
-    width:340px;
-    height:60px;
-    border-radius:40px;
-    background-color:#FEF794;
-    border:none;
-    font-size:24px;
-    font-weight:bold;
-    color:white;
-    cursor: pointer;
- 
-  }
-  
-  `
+  const WriteButton = styled.div``
