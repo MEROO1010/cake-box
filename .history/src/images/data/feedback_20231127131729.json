@@ -1,0 +1,21 @@
+[
+    {
+        "imagePath": "https://www.flaticon.com/free-icon/stars_156855?term=stars&page=1&position=27&origin=search&related_id=156855",
+        "description": "Fresh and delicious pastries. They bake in front of you. I will definitely come back here to try the whole range.",
+        "name":"Mona"
+    },
+
+    {
+        "imagePath": "../images/stars.png",
+        "description": "Fast delivery and friendly staff. All liked it. We'll come again.",
+        "name":"Khalid"
+    },
+
+    {
+        "imagePath": "../images/stars.png",
+        "description": "Very tasty cakes and prices are pleasant to the eye.",
+        "name":"Ali"
+    }
+
+    
+]
